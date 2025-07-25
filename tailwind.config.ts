@@ -61,7 +61,27 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				player: {
+					bg: 'hsl(var(--player-bg))',
+					'shadow-light': 'hsl(var(--player-shadow-light))',
+					'shadow-dark': 'hsl(var(--player-shadow-dark))'
+				},
+				progress: {
+					bg: 'hsl(var(--progress-bg))',
+					fill: 'hsl(var(--progress-fill))'
 				}
+			},
+			backgroundImage: {
+				'gradient-player': 'var(--gradient-player)',
+				'gradient-button': 'var(--gradient-button)',
+				'gradient-progress': 'var(--gradient-progress)'
+			},
+			boxShadow: {
+				'neumorphic': '8px 8px 16px hsl(var(--player-shadow-dark)), -8px -8px 16px hsl(var(--player-shadow-light))',
+				'neumorphic-inset': 'inset 4px 4px 8px hsl(var(--player-shadow-dark)), inset -4px -4px 8px hsl(var(--player-shadow-light))',
+				'neumorphic-button': '4px 4px 8px hsl(var(--player-shadow-dark)), -4px -4px 8px hsl(var(--player-shadow-light))',
+				'neumorphic-button-pressed': 'inset 2px 2px 4px hsl(var(--player-shadow-dark)), inset -2px -2px 4px hsl(var(--player-shadow-light))'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
